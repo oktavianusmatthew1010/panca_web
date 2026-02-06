@@ -602,6 +602,8 @@ textarea {
   }
   .footer-columns {
     grid-template-columns: 1fr;
+    padding-left: var(--space-5);
+    padding-right: var(--space-5);
   }
   .phones .phone {
     width: 48%;
