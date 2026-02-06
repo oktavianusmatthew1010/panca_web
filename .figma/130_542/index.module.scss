@@ -1,0 +1,978 @@
+* {
+  box-sizing: border-box;
+}
+
+.pancaglobal {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  background: #f5f5f5;
+  padding-bottom: 1px;
+  width: 1440px;
+  height: 3022px;
+  overflow: hidden;
+
+  .pancaGlobal1 {
+    flex-shrink: 0;
+    width: 157px;
+    height: 52px;
+  }
+
+  .frame12 {
+    display: flex;
+    position: absolute;
+    top: 191px;
+    left: 377px;
+    flex-direction: column;
+    align-items: center;
+    width: 687px;
+    height: 335px;
+    row-gap: 24px;
+
+    .frame3 {
+      display: inline-flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      align-items: center;
+      align-self: stretch;
+      margin-right: 44px;
+      margin-left: 44px;
+      row-gap: 8px;
+
+      .empoweringInvestment {
+        flex-shrink: 0;
+        width: 600px;
+        text-align: center;
+        line-height: 68px;
+        letter-spacing: 0;
+        color: #000000;
+        font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 52px;
+        font-weight: 800;
+      }
+    }
+
+    .frame1 {
+      display: inline-flex;
+      flex-shrink: 0;
+      align-items: center;
+      align-self: stretch;
+      justify-content: center;
+      column-gap: 10px;
+      margin-right: 245px;
+      margin-left: 245px;
+      border-radius: 50px;
+      background: #151515;
+      padding: 14px 24px;
+
+      .exploreOurServices {
+        flex-shrink: 0;
+        line-height: 19px;
+        letter-spacing: 0;
+        color: #ffffff;
+        font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .autoWrapper4 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    padding-right: 0;
+    padding-left: 0;
+
+    .header {
+      display: flex;
+      align-items: center;
+      column-gap: 28px;
+      border-width: 0px 0px 1px;
+      border-style: solid;
+      border-color: #dcdcdc;
+      background: #ffffff;
+      padding-right: 120px;
+      padding-left: 120px;
+      width: 1440px;
+
+      .pancaGlobal12 {
+        flex-shrink: 0;
+        width: 145px;
+        height: 48px;
+      }
+
+      .ourServices {
+        flex-shrink: 0;
+        padding: 28px 0px;
+        width: 91px;
+        line-height: 22px;
+        letter-spacing: 0;
+        color: var(--text-subtle, #3e4042);
+        font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+      }
+
+      .pEgeSecurity {
+        flex-shrink: 0;
+        padding: 28px 0px;
+        width: 102px;
+        line-height: 22px;
+        letter-spacing: 0;
+        color: var(--text-subtle, #3e4042);
+        font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+      }
+
+      .investorRelationship {
+        flex-shrink: 0;
+        padding: 28px 0px;
+        width: 151px;
+        line-height: 22px;
+        letter-spacing: 0;
+        color: var(--text-subtle, #3e4042);
+        font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+      }
+
+      .news {
+        flex-shrink: 0;
+        padding: 28px 0px;
+        width: 41px;
+        line-height: 22px;
+        letter-spacing: 0;
+        color: var(--text-subtle, #3e4042);
+        font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+      }
+
+      .contactUs {
+        flex-shrink: 0;
+        padding: 28px 0px;
+        width: 79px;
+        line-height: 22px;
+        letter-spacing: 0;
+        color: var(--text-subtle, #3e4042);
+        font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+
+    .autoWrapper3 {
+      display: flex;
+      align-items: flex-start;
+      align-self: stretch;
+      justify-content: space-between;
+      margin-top: 41px;
+      padding-right: 240px;
+      padding-left: 0;
+
+      .autoWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        margin-top: 5px;
+
+        .lowAngleViewSkyscrap {
+          border-radius: 12px;
+          width: 243px;
+          height: 309px;
+        }
+
+        .portraitExcitedAsain {
+          margin-top: 32px;
+          margin-left: 108px;
+          border-radius: 12px;
+          width: 228px;
+          height: 245px;
+        }
+      }
+
+      .autoWrapper2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+
+        .businessmanInvestort {
+          margin-left: 127px;
+          border-radius: 12px;
+          width: 198px;
+          height: 128px;
+        }
+
+        .mikaBaumeisterQEsxn2 {
+          margin-top: 32px;
+          margin-left: 206px;
+          border-radius: 12px;
+          width: 163px;
+          height: 192px;
+        }
+
+        .twoContentBusinessPa {
+          margin-top: 32px;
+          border-radius: 12px;
+          width: 311px;
+          height: 207px;
+        }
+      }
+    }
+
+    .frame25 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-self: stretch;
+      margin-top: 45px;
+      border-radius: 24px 24px 0px 0px;
+      background: #ffffff;
+      padding: 62px 120px;
+      row-gap: 133px;
+
+      .frame2 {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: center;
+        align-self: stretch;
+        row-gap: 42px;
+
+        .capitalMarketInvestm {
+          flex-shrink: 0;
+          line-height: 45px;
+          letter-spacing: 0;
+          color: #000000;
+          font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 38px;
+          font-weight: 800;
+        }
+
+        .frame13 {
+          display: flex;
+          flex-shrink: 0;
+          align-items: flex-start;
+          align-self: stretch;
+          column-gap: 32px;
+
+          .licensedBrokerageAnd {
+            margin: 196px 0px 0px;
+            width: 323px;
+            line-height: 24px;
+            letter-spacing: 0;
+            color: #ffffff;
+            font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 18px;
+          }
+
+          .brokerageUnderwritin {
+            width: 323px;
+            line-height: 38px;
+            letter-spacing: 0;
+            color: #ffffff;
+            font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 28px;
+            font-weight: 700;
+          }
+
+          .frame32 {
+            display: flex;
+            flex-grow: 1;
+            align-items: flex-start;
+            align-self: stretch;
+            border-radius: 16px;
+            box-shadow: 0px 30px 30px 0px #0000000a, 0px 10px 32px 0px #00000014;
+            background: #ffffff;
+            overflow: hidden;
+
+            .talkBankers1 {
+              position: relative;
+              margin-top: -195px;
+              width: 399px;
+              height: 599px;
+              background-image: url(../image/mk2lxzqk-aoe25fo.png);
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+
+              .overlay {
+                display: flex;
+                position: absolute;
+                top: 194px;
+                left: 0;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 29px 33px 32px 28px;
+                width: 384px;
+                height: 405px;
+                overflow: hidden;
+                background-image: linear-gradient(
+                  180deg,
+                  #1e1e1ed1 0%,
+                  #91919100 49.52%,
+                  #000000 96%
+                );
+              }
+            }
+          }
+
+          .frame6 {
+            position: relative;
+            flex-grow: 1;
+            align-self: stretch;
+            border-radius: 16px;
+            box-shadow: 0px 30px 30px 0px #0000000a, 0px 10px 32px 0px #00000014;
+            background: #ffffff;
+            overflow: hidden;
+
+            .businessmanCheckingS {
+              position: absolute;
+              top: -144px;
+              left: 1px;
+              width: 385px;
+              height: 687px;
+            }
+
+            .overlay2 {
+              display: flex;
+              position: absolute;
+              top: -2px;
+              left: 0;
+              flex-direction: column;
+              align-items: flex-start;
+              padding: 30px 33px 30px 28px;
+              width: 384px;
+              height: 404px;
+              overflow: hidden;
+              background-image: linear-gradient(
+                180deg,
+                #1e1e1ed1 0%,
+                #91919100 49.52%,
+                #000000 97.12%
+              );
+
+              .investmentPortfolioM {
+                width: 323px;
+                line-height: 38px;
+                letter-spacing: 0;
+                color: #ffffff;
+                font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+                font-size: 28px;
+                font-weight: 800;
+              }
+            }
+          }
+
+          .frame5 {
+            position: relative;
+            flex-grow: 1;
+            align-self: stretch;
+            border-radius: 16px;
+            box-shadow: 0px 30px 30px 0px #0000000a, 0px 10px 32px 0px #00000014;
+            background: #ffffff;
+            overflow: hidden;
+
+            .tabletShowingFinanci {
+              position: absolute;
+              bottom: -3px;
+              left: -1px;
+              width: 384px;
+              height: 549px;
+            }
+
+            .overlay3 {
+              display: flex;
+              position: absolute;
+              top: -2px;
+              left: -1px;
+              flex-direction: column;
+              align-items: flex-start;
+              padding: 30px 33px 32px 28px;
+              width: 384px;
+              height: 406px;
+              overflow: hidden;
+              background-image: linear-gradient(
+                180deg,
+                #1e1e1ed1 0%,
+                #91919100 49.52%,
+                #000000 97.12%
+              );
+
+              .regulatedOperationsU {
+                margin: 220px 0px 0px;
+                width: 323px;
+                line-height: 24px;
+                letter-spacing: 0;
+                color: #ffffff;
+                font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+
+      .frame17 {
+        display: flex;
+        flex-shrink: 0;
+        align-items: flex-start;
+        align-self: stretch;
+        border-radius: 16px;
+        box-shadow: 0px 30px 30px 0px #0000000a, 0px 10px 32px 0px #00000014;
+        background: #ffffff;
+
+        .frame16 {
+          display: flex;
+          flex-direction: column;
+          flex-grow: 1;
+          align-items: flex-start;
+          justify-content: center;
+          border-radius: 24px 0px 0px 24px;
+          background: var(--secondary);
+          padding: 42px;
+          overflow: hidden;
+          row-gap: 24px;
+          background-image: linear-gradient(0deg, #b11226 0%, #e1062a 100%);
+
+          .checkSmall {
+            flex-shrink: 0;
+            width: 19px;
+            height: 19px;
+          }
+
+          .frame14 {
+            display: inline-flex;
+            flex-direction: column;
+            flex-shrink: 0;
+            align-items: flex-start;
+            align-self: stretch;
+            row-gap: 12px;
+
+            .ourSubsidiary {
+              flex-shrink: 0;
+              line-height: 19px;
+              letter-spacing: 0;
+              color: #ffffff;
+              font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+              font-size: 14px;
+              font-weight: 500;
+            }
+
+            .nagaXOnlineStockTrad {
+              flex-shrink: 0;
+              width: 516px;
+              line-height: 51px;
+              letter-spacing: 0;
+              color: #ffffff;
+              font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+              font-size: 38px;
+              font-weight: 800;
+            }
+          }
+
+          .ourProprietaryOnline {
+            flex-shrink: 0;
+            width: 548px;
+            line-height: 24px;
+            letter-spacing: 0;
+            color: #ffffff;
+            font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 18px;
+          }
+
+          .frame23 {
+            display: inline-flex;
+            flex-direction: column;
+            flex-shrink: 0;
+            align-items: flex-start;
+            align-self: stretch;
+            margin-right: 173px;
+            row-gap: 8px;
+
+            .realTimeStockTrading {
+              flex-shrink: 0;
+              line-height: 24px;
+              letter-spacing: 0;
+              color: #ffffff;
+              font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+              font-size: 18px;
+            }
+
+            .frame22 {
+              display: inline-flex;
+              flex-shrink: 0;
+              align-items: center;
+              align-self: stretch;
+              column-gap: 6px;
+              margin-right: 133px;
+            }
+
+            .frame33 {
+              display: inline-flex;
+              flex-shrink: 0;
+              align-items: center;
+              align-self: stretch;
+              column-gap: 6px;
+            }
+
+            .frame4 {
+              display: inline-flex;
+              flex-shrink: 0;
+              align-items: center;
+              align-self: stretch;
+              column-gap: 6px;
+              margin-right: 42px;
+            }
+          }
+
+          .frame15 {
+            display: inline-flex;
+            flex-shrink: 0;
+            align-items: center;
+            align-self: stretch;
+            justify-content: center;
+            column-gap: 10px;
+            margin-right: 344px;
+            border-radius: 50px;
+            background: #ffffff;
+            padding: 14px 24px;
+
+            .exploreMore {
+              flex-shrink: 0;
+              background: linear-gradient(0deg, #b11226 0%, #e1062a 100%);
+              background-clip: text;
+              line-height: 19px;
+              letter-spacing: 0;
+              color: transparent;
+              font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+              font-size: 16px;
+              font-weight: 500;
+              -webkit-background-clip: text;
+            }
+          }
+        }
+
+        .group2 {
+          position: relative;
+          flex-shrink: 0;
+          border-radius: 0px 24px 24px 0px;
+          background: var(--secondary);
+          width: 600px;
+          height: 472px;
+          background-image: linear-gradient(0deg, #b11226 0%, #e1062a 100%);
+
+          .frame62 {
+            display: flex;
+            position: absolute;
+            bottom: -1px;
+            left: 238px;
+            align-items: flex-start;
+            padding-right: 1px;
+            padding-left: 1px;
+            width: 291px;
+            height: 426px;
+            overflow: hidden;
+
+            .tradeFaceMock1 {
+              margin-top: -1px;
+              width: 290px;
+              height: 593px;
+            }
+          }
+
+          .frame7 {
+            display: flex;
+            position: absolute;
+            bottom: 1px;
+            left: 51px;
+            align-items: flex-start;
+            padding-right: 1px;
+            width: 291px;
+            height: 345px;
+            overflow: hidden;
+
+            .faceMock1 {
+              margin-top: -1px;
+              margin-left: -1px;
+              width: 290px;
+              height: 593px;
+            }
+          }
+        }
+      }
+
+      .frame24 {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: center;
+        align-self: stretch;
+        row-gap: 42px;
+
+        .whyPancaGlobal {
+          flex-shrink: 0;
+          align-self: stretch;
+          text-align: center;
+          letter-spacing: 0;
+          color: #000000;
+          font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 38px;
+          font-weight: 700;
+        }
+
+        .frame132 {
+          display: flex;
+          flex-shrink: 0;
+          align-items: flex-start;
+          align-self: stretch;
+          column-gap: 42px;
+
+          .forwardLookingInvest {
+            flex-shrink: 0;
+            align-self: stretch;
+            text-align: center;
+            line-height: 24px;
+            letter-spacing: 0;
+            color: var(--text-subtle, #3e4042);
+            font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 18px;
+          }
+
+          .innovation {
+            flex-shrink: 0;
+            align-self: stretch;
+            text-align: center;
+            letter-spacing: 0;
+            color: #000000;
+            font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+          }
+
+          .lightbulb2 {
+            flex-shrink: 0;
+            width: 32px;
+            height: 32px;
+          }
+
+          .frame18 {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            align-items: center;
+            align-self: stretch;
+            border-radius: 16px;
+            background: #f5f5f5;
+            padding: 20px;
+            row-gap: 12px;
+          }
+
+          .frame19 {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            align-items: center;
+            align-self: stretch;
+            border-radius: 16px;
+            background: #f5f5f5;
+            padding: 20px;
+            row-gap: 12px;
+
+            .transparency {
+              flex-shrink: 0;
+              line-height: 28px;
+              letter-spacing: 0;
+              color: #000000;
+              font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+              font-size: 24px;
+              font-weight: 700;
+            }
+          }
+
+          .frame110 {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            align-items: center;
+            border-radius: 16px;
+            background: #f5f5f5;
+            padding: 20px;
+            row-gap: 12px;
+          }
+        }
+      }
+
+      .frame53 {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: center;
+        align-self: stretch;
+        justify-content: center;
+        border-radius: 16px;
+        background: #000000;
+        padding: 52px 42px;
+        row-gap: 24px;
+
+        .frame34 {
+          display: inline-flex;
+          flex-direction: column;
+          flex-shrink: 0;
+          align-items: center;
+          align-self: stretch;
+          margin-right: 354px;
+          margin-left: 354px;
+          row-gap: 8px;
+
+          .contactUs2 {
+            flex-shrink: 0;
+            line-height: 45px;
+            letter-spacing: 0;
+            color: #ffffff;
+            font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 38px;
+            font-weight: 700;
+          }
+
+          .letUsBringYouTheStra {
+            flex-shrink: 0;
+            line-height: 24px;
+            letter-spacing: 0;
+            color: #b5b8c0;
+            font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 18px;
+          }
+        }
+
+        .frame39 {
+          display: inline-flex;
+          flex-shrink: 0;
+          align-items: flex-start;
+          align-self: stretch;
+          column-gap: 16px;
+          margin-right: 118px;
+          margin-left: 118px;
+
+          .a622139524369 {
+            flex-shrink: 0;
+            line-height: 22px;
+            letter-spacing: 0;
+            color: #ffffff;
+            font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 16px;
+          }
+
+          .phoneCall {
+            flex-shrink: 0;
+            line-height: 19px;
+            letter-spacing: 0;
+            color: #b5b8c0;
+            font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+          }
+
+          .wifiCallingBar3 {
+            flex-shrink: 0;
+            width: 18px;
+            height: 18px;
+          }
+
+          .frame36 {
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+            align-items: flex-start;
+            border-radius: 8px;
+            background: #ffffff2e;
+            padding: 12px;
+            width: 283px;
+            row-gap: 8px;
+
+            .frame35 {
+              display: inline-flex;
+              flex-shrink: 0;
+              align-items: center;
+              align-self: stretch;
+              column-gap: 8px;
+              margin-right: 165px;
+            }
+          }
+
+          .frame52 {
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+            align-items: flex-start;
+            border-radius: 8px;
+            background: #ffffff2e;
+            padding: 12px;
+            width: 283px;
+            row-gap: 8px;
+
+            .frame37 {
+              display: inline-flex;
+              flex-shrink: 0;
+              align-items: center;
+              align-self: stretch;
+              column-gap: 8px;
+              margin-right: 170px;
+
+              .whatsappLogo {
+                flex-shrink: 0;
+                width: 18px;
+                height: 18px;
+                overflow: hidden;
+              }
+            }
+          }
+
+          .frame42 {
+            display: inline-flex;
+            flex-direction: column;
+            flex-shrink: 0;
+            align-items: flex-start;
+            border-radius: 8px;
+            background: #ffffff2e;
+            padding: 12px;
+            row-gap: 8px;
+
+            .frame38 {
+              display: inline-flex;
+              flex-shrink: 0;
+              align-items: center;
+              align-self: stretch;
+              column-gap: 8px;
+              margin-right: 198px;
+            }
+          }
+        }
+      }
+    }
+
+    .frame44 {
+      display: flex;
+      align-items: flex-start;
+      column-gap: 20px;
+      border-width: 1px 0px 0px;
+      border-style: solid;
+      border-color: #dcdcdc;
+      background: #ffffff;
+      padding: 41px 120px 42px;
+      width: 1440px;
+
+      .brokerageUnderwritin2 {
+        flex-shrink: 0;
+        align-self: stretch;
+        line-height: 19px;
+        letter-spacing: 0;
+        color: var(--text-subtle, #3e4042);
+        font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+      }
+
+      .ourServices2 {
+        flex-shrink: 0;
+        align-self: stretch;
+        line-height: 19px;
+        letter-spacing: 0;
+        color: #000000;
+        font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+      .frame310 {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: flex-start;
+        row-gap: 16px;
+
+        .jlMerdekaRayaNo128Ke {
+          flex-shrink: 0;
+          align-self: stretch;
+          width: 285px;
+          line-height: 19px;
+          letter-spacing: 0;
+          color: #000000;
+          font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 14px;
+        }
+      }
+
+      .frame311 {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: flex-start;
+        row-gap: 12px;
+      }
+
+      .frame43 {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: flex-start;
+        row-gap: 12px;
+
+        .termsAndConditions {
+          flex-shrink: 0;
+          line-height: 19px;
+          letter-spacing: 0;
+          color: var(--text-subtle, #3e4042);
+          font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 14px;
+        }
+      }
+
+      .frame72 {
+        display: inline-flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: flex-start;
+        row-gap: 12px;
+
+        .findUsOn {
+          flex-shrink: 0;
+          line-height: 19px;
+          letter-spacing: 0;
+          color: #000000;
+          font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+        }
+
+        .frame29611931 {
+          display: inline-flex;
+          flex-shrink: 0;
+          align-items: center;
+          align-self: stretch;
+          column-gap: 24px;
+
+          .facebookF {
+            flex-shrink: 0;
+            width: 20px;
+            height: 20px;
+            overflow: hidden;
+          }
+
+          .instagram1 {
+            flex-shrink: 0;
+            width: 25px;
+            height: 25px;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+  }
+}
