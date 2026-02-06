@@ -60,8 +60,9 @@ a {
   gap: var(--space-3);
 }
 .brand-mark {
-  width: 40px;
+  width: auto;
   height: 40px;
+  object-fit: contain;
 }
 .brand-name {
   font-weight: 600;
